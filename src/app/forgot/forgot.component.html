@@ -1,0 +1,33 @@
+<!-- background image willbe added in body css -->
+<body> 
+    <div ngClass="container">
+        <div class="row">
+            <!-- logo-filed -->
+            <a title="Space-X Logo" class="ms-5 navbar-brand" href="#"><img src="../assets/preview-xl.png" alt="Responsive images " width="250" ></a>
+            
+            <h5>Forgot password</h5>
+
+            <div class="col">
+                That's okey, Enter your email below to reset your password. 
+            </div>
+            <!-- input -->
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email address or mobile number">
+            </div>
+            <!-- cancel -->
+            <h6>
+                <p routerLink="/login" class="cancel "><a>Cancel</a></p>
+            </h6> 
+
+            <div style="text-align:right;">
+                <button type="text" class="search btn" (click)="onSubmit()">Search</button> 
+            </div>
+            
+        </div>
+    </div>
+                        <!-- end-tag -->
+    <div class="col">
+        <p class="s-2">© 2023, SpaceX Corporation Pvt. Ltd. All Rights Reserved.</p>  
+    </div>
+</body>
+   

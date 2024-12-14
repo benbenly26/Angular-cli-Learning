@@ -1,0 +1,46 @@
+.navbar{
+    height: 130px;
+}
+.bg{
+    background-image: url('src/assets/missionsnavbg1.png');
+}
+.navbar-brand{
+    position: relative;
+    right: 350px;
+    bottom: 20px;
+}
+.nav-item{
+    top: 25px;
+    position: relative;
+    color: white;
+    right: 300px;
+}
+.font-2{
+    font-size: 30px;
+}
+.nav-item-5{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    left: 170px;
+}
+.row{
+    position: relative;
+    background-image: url('src/assets/aboutpagebg.png');
+    height: 215px;
+}
+.mt-5{
+    position: relative;
+    top: 110px;
+}
+.title{
+    color:#ffffff;
+    font-size: 40px;
+}
+.heading{
+    margin-top: 30px;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+.ms-4{
+    text-align: center;
+}

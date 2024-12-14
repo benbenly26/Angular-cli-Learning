@@ -1,0 +1,57 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div ngClass="container">
+   <div class="row">
+      <!-- Image part -->
+      <a title="Space-X Logo" class="ms-5 navbar-brand" href="#"><img src="../assets/preview-xl.png"
+                                                                    alt="Responsive images " width="250"></a>
+      <!-- icon pack -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- middle part  -->
+      <div class="title-h1">
+       <h3><b>Sign in</b></h3>
+        <div class="title-h2">
+          <p><em>To access Space-x Home</em></p>
+        </div>
+      </div>
+      <br>
+      <!-- email -->
+      <form>
+        <div class="form-group">
+          <label for="username">Email :</label>
+            <input type="text" class="form-control" placeholder="Enter Email" [{ngModel}]="email">
+        </div>
+      <!-- password -->
+        <div class="form-group">
+          <label class="form-label" for="typePassword">Password:</label>
+            <input type="password" id="typePassword" class="form-control" placeholder="Enter your password" [{ngModel}]="password">
+        </div>
+        <!-- Forget password-button -->
+        <h6>
+          <p routerLink="/forgot" class="forget-pass"><a>Forget Password?</a></p>
+        </h6>
+        <!-- sign-in -->
+        <div style="text-align:center;">
+          <button type="submit" class="sign btn" (click)="onSubmit()">Next</button>
+        </div>
+
+      </form>
+      <!-- Register-component -->
+      <h6>
+        <p class="account"> Don't have an account? <a routerLink="/register" class="register "> Sign up for free</a></p>
+      </h6>
+
+    </div>
+  </div>
+    <!-- end title -->
+  <div class="col">
+    <p class="s-2">© 2023, SpaceX Corporation Pvt. Ltd. All Rights Reserved.</p>
+  </div>
+
+
+</body>
+
+
+

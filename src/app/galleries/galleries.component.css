@@ -1,0 +1,41 @@
+body {
+  background-image: url('src/assets/Untitled-2.png');
+  height: 100vh;
+  object-fit: contain;
+  height: 100vh;
+  /* vh- vertical height */
+}
+.bg {
+  padding: 40px 0px 20px 0px;
+  margin-bottom: 0px;
+  background-color: #313131;
+}
+.col-2 {
+  background-color: #5d7fb9;
+  color: #fff;
+  padding: 8px 10px;
+  position: relative;
+  left: 35px;
+}
+.me-3 {
+  color: white;
+  cursor: pointer;
+}
+.nav-item {
+  position: absolute;
+}
+.end {
+  position: relative;
+  left: 210px;
+}
+.middle{
+  position: relative;
+  left: 120px;
+}
+.start{
+  position: relative;
+  left: 30px;
+}
+.mt-5{
+  cursor: pointer;
+}

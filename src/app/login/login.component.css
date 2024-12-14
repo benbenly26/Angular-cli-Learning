@@ -1,0 +1,100 @@
+body{
+    background-image: url('src/assets/3454118.svg');
+    height: 100vh;
+    
+}
+.container {
+    width: 640px;
+    padding: 40px;
+    position: relative;
+    top: 200px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ms-5{
+    position: relative;
+    width: 10px;
+    right: 110px;
+}
+
+.title-h1{
+    position: relative;
+    margin-top: 15px;
+    left: 2%;
+    font-family: Arial, Helvetica,sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.title-h2{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.register{
+    color: #007cd4;
+    cursor:pointer;
+    top: 10px;
+}
+
+.register:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+.sign{
+    background-color: rgb(21,154,255);
+    color: rgb(245, 248, 242);
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 160px;
+    width: 100px;
+}
+
+.sign:hover{
+    color: #030303;
+}
+
+.form-group{
+    max-width: 500px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    float: left;
+    text-align: center;
+    width: 10%;
+}
+
+.account{
+    position: relative;
+    top: 10px;
+    color: rgb(105, 104, 104);
+    left: 12px;
+}
+
+.forget-pass{
+    cursor:pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 23%;
+}
+
+.forget-pass:hover{
+    text-decoration: underline;
+    color: #007cd4;
+}
+
+.col{
+    position: relative;
+    text-align: center;
+    top: 280px;
+}
+.s-2{
+    font-size: 15px;
+}

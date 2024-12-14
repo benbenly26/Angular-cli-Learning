@@ -1,0 +1,47 @@
+<header>
+    <!-- Nav-bar-items -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a title="Space-X Logo" class="ms-5 navbar-brand" href="#"><img src="../assets/preview-xl.png" alt="Responsive images " width="200" ></a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item me-3">
+                  <h6><a>Have a Space-X account</a></h6>
+                </li>
+                <li class="nav-item">
+                  <h6 title="Login-page" routerLink="/login"class="nav-1"><a>Sign in</a></h6> 
+                </li>
+            </ul>  
+        </div>
+    </nav>
+</header>
+            <!-- text-center -->
+    <div ngClass="container">
+        <div class="row">
+            <div class="col"><h4>Start with your free account today.</h4></div>
+        </div>
+        <br>
+        <!-- name-field -->
+        <div class="form-group">
+            <label for="username"><h6>Name :</h6></label>
+            <input type="text" class="form-control" required placeholder="Enter Name">
+        </div> 
+        <!-- email-field -->
+        <div class="form-group">
+            <label for="username"><h6>Email :</h6></label>
+            <input type="text" class="form-control" required placeholder="Enter email">
+        </div>
+        <!-- password-field -->
+        <div class="form-group">
+            <label class="form-label" for="typePassword"><h6>Password :</h6></label>
+            <input type="password" id="typePassword" class="form-control" placeholder="Enter password" />  
+        </div>
+        <!-- Sigin-button -->
+        <div style="text-align:center;">
+            <button type="submit" class="register btn" (click)="onSubmit()">SIGN UP FOR FREE</button>
+        </div>
+        <!-- text-center -->
+        <div class="col">
+            <p class="s-2">© 2023, SpaceX Corporation Pvt. Ltd. All Rights Reserved.</p>  
+        </div> 
+    </div>
+

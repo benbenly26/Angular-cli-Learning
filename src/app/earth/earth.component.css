@@ -1,0 +1,37 @@
+body{
+    background-image: url('src/assets/earthbg.png');
+}
+.navbar-brand{
+    position: relative;
+    right: 350px;
+    bottom: 15px;
+}
+.nav-item-5{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    left: 800px;
+    bottom: 100px;
+}
+.image{
+    position: relative;
+    right: 270px;
+    top: 20px;
+}
+.col{
+    position: relative;
+    color: white;
+    top: 50px;
+    right: 270px;
+}
+h1{
+    font-size: 90px;
+}
+.text{
+    position: relative;
+    font-size: 50px;
+    left: 300px;
+    bottom: 40px;
+    
+   
+}

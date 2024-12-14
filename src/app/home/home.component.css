@@ -1,0 +1,54 @@
+.col{
+    position: relative;
+    text-align: end;
+    left: 10px;
+}
+.ms-5{
+    position: relative;
+    left: 300px;
+}
+
+.me-5{
+    position: relative;
+    right: 350px;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.nav-item-1{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: rgb(11, 153, 163);
+    cursor: pointer;
+}
+
+.row{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.col{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.s-1{
+    text-align: start;
+}
+
+.s-2{
+    font-size: 14px;
+}
+
+.bg{
+    border-top:  1px solid rgb(176, 187, 187);
+    border-bottom: 1px solid rgb(176, 187, 187);
+}
+.fa-search{
+    cursor: pointer;
+}

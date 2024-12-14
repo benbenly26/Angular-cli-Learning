@@ -1,0 +1,395 @@
+.navbar{
+    height: 130px;
+}
+.bg{
+    background-image: url('src/assets/missionsnavbg1.png');
+}
+.navbar-brand{
+    position: relative;
+    right: 350px;
+    bottom: 20px;
+}
+.nav-item{
+    top: 25px;
+    position: relative;
+    color: white;
+    right: 900px;
+}
+.font-2{
+    font-size: 20px;
+}
+.nav-item-5{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    left: 170px;
+}
+.row{
+    position: relative;
+    background-image: url('src/assets/missionsrowbg.png');
+    height: 215px;
+}
+.title{
+    color: white;
+    font-size: 45px;
+}
+.mt-5{
+    position: relative;
+    top: 100px;
+}
+.heading{
+    font-size: 36px;
+
+}
+.p-1{
+    position: relative;
+    top: 10px;
+    right: 3px;
+    color: #317ab9;
+}
+.p-1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #41596e;
+}
+.A{
+    position: relative;
+    text-align: center;
+    right: 620px;
+    margin-top: 50px;
+}
+.A-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.A-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.B{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.B-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.B-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.C{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.C-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.C-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.D{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.D-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.D-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.E{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.E-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.E-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.F{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.F-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.F-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.G{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.G-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.G-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.H{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.H-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.H-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.I{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.I-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.I-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.J{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.J-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.J-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.K{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.K-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.K-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.L{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.L-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.L-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.M{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.M-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.M-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.N{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.N-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.N-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.O{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.O-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.O-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.P{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.P-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.p-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.Q{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.Q-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.Q-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.R{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.R-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.R-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.S{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.S-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.S-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.T{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.T-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.T-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.U{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.U-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.U-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.V{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.V-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.V-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.W{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.W-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.W-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+.X{
+    position: relative;
+    text-align: center;
+    right: 620px;
+}
+.X-1{
+    position: relative;
+    cursor: pointer;
+    left: 255px;
+}
+.X-1:hover{
+    text-decoration: underline;
+    color: #41596e;
+}
+
+.ms-4{
+    text-align: center;
+}

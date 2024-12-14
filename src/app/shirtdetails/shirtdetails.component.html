@@ -1,0 +1,103 @@
+<div class="sticky_navbar">
+<nav class="navbar bg-black">
+    <!-- nav-bar -->
+    <div class="container-fluid">
+        <!-- image field -->
+        <a title="Space-X Logo" class="me-5 navbar-brand"><img src="../assets/preview-xl.png" alt="Responsive images " width="250"></a>
+        <!-- icon link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- nav items -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item ms-4">
+                <h6 class="font-2">
+                    <p>SPACE-X STORE</p>
+                </h6>
+            </li>
+
+            <li class="nav-item ms-3 bg">
+                <h6>
+                    <p>ACCOUNT</p>
+                </h6>
+            </li>
+            <li class="nav-item ms-3 bg">
+                <h6>
+                    <p><i style="font-size:14px" class="fa fa-search"></i> SEARCH</p>
+                </h6>
+            </li>
+            <li class="nav-item ms-3">
+                <h6>
+                    <p>CART(0)</p>
+                </h6>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col bg">
+                <div class="img_1">
+                    <img src="https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-SPACEXLOGO-HEATHERGRAY-BACK_800x.png?v=1668633545" alt="Responsive">
+                </div>
+                <div class="img_2">
+                    <img src="https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-CREW-DRAGON-SCHEMATIC-TSHIRT-GRAY-FRONT_6ae71447-4548-412c-9b01-731425cf0fa9_800x.png?
+                    v=1668633545" alt="Responsive">
+                </div>
+
+                <div class="img_3">
+                    <img src="https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-SPACEX-T-SHIRT-BNAVY-FRONT_800x.png?v=1668633545" alt="Responsive">
+                </div>
+
+                <div class="img_4">
+                    <img src="https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-SPACEX-T-SHIRT-BNAVY-FRONT_800x.png?v=1668633545" alt="Responsive">
+                </div>
+               
+            </div>
+            <div class="col">
+             <div class="sticky">
+              <h1 class="text mt">MEN'S SPACEX T-SHIRT</h1>
+              <h5 class="bill mt">$30.00</h5>
+              <br><hr>
+              <h6 class="textOne">Fabric Content:</h6>
+              <p class="textOne">• Black: 100% Cotton <br>
+                • Navy: 100% Cotton <br>
+                • Gray Heather: 90% Cotton / 10% Polyester 
+              </p>
+                <h5 class="textTwo mt">Size:</h5>
+                <select class="form-select w-75" aria-label="Default select example ">
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                    <option value="4">XL</option>
+                    <option value="5">2XL</option>
+                  </select>
+
+                <h5 class="textThree mt">Quantity:</h5>
+                    
+                  <div class="wrapper">
+                    <button class="minus btn" onclick="decrement();"><i style="font-size:15px" class="fa fa-minus"></i></button>
+                    <span  class="num">1</span>
+                    <button class="plus btn" onclick="increment();"><i style="font-size:15px" class="fa fa-plus"></i></button>
+                  </div>
+
+                  <button type="button" class="btn btn-dark mt-5 w-50" (click)="onSubmit()">ADD TO CART</button> 
+                    <br>
+                  <div class="mt-5" id="info">
+                    <hr>
+                        <p>MORE INFORMATION<i style="font-size:16px" class="fa fa-chevron-right"></i></p>
+                    <hr>
+                  </div>
+             </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="col text-center">
+        <p class="s-2">© 2023, SpaceX Corporation Pvt. Ltd. All Rights Reserved.</p>
+        <!-- earth-icon -->
+        <p><i style="font-size:22px;color: rgb(8, 108, 240);"class="fa fa-globe"></i>  English</p>
+    </div>
+</body>

@@ -1,0 +1,74 @@
+.navbar{
+    height: 150px;
+}
+.nav-item{
+    top: 25px;
+    position: relative;
+    color: white;
+    right: 600px;
+}
+.font-2{
+    font-size: 30px;
+}
+.ms-3{
+    right: 30px;
+    cursor: pointer;
+}
+.bg{
+    color: #939393;
+}
+.bg:hover{
+    color: white;
+}
+.mt-5{
+    font-size: 30px;
+} 
+.start{
+    position: relative;
+    cursor: pointer;
+    right: 240px;
+}
+.one{
+    position: relative;
+    right: 200px;
+}
+.text:hover{
+    color: #939393;
+    cursor: pointer;
+}
+.middle{
+    position: relative;
+    cursor: pointer;
+    right: 120px;
+}
+.two{
+    position: relative;
+    right: 70px;
+}
+.middle_end{
+    cursor: pointer;
+}
+.end{
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+.three{
+    position: relative;
+    left: 60px;
+}
+.four{
+    position: relative;
+    left: 180px;
+}
+#itemList a{
+    text-decoration: none;
+    color: #000000;
+}
+#itemList a:hover{
+    color: #6c757d;
+}
+.bill{
+    position: relative;
+    top: 10px;
+}

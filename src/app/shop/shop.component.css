@@ -1,0 +1,40 @@
+.me-4{
+    position: relative;
+    top: 30px;
+    right: 600px;
+    cursor: pointer;
+    color: white;
+}  
+.me-3{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.row{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.center{
+    margin-top: 550px;
+    text-align: center;
+    color: white;
+}
+
+.bg{
+    color: #939393;
+}
+
+.bg:hover{
+    color: white;
+}
+
+main{
+    background-image: url('src/assets/space.png');
+    object-fit: contain;
+    height: 100vh;
+    /* vh- vertical height */
+}
+.ms-5{
+    position: relative;
+    right: 50px;
+}

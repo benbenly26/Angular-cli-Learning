@@ -1,0 +1,57 @@
+body{
+    background-image: url('src/assets/3454118.svg');
+    height: 100vh;
+}
+
+.container {
+    width: 640px;
+    padding: 40px;
+    position: relative;
+    top: 250px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ms-5{
+    position: relative;
+    right: 126px;
+}
+
+.col{
+    position: relative;
+    margin-top: 10px;
+}
+
+.form-control{
+    position: relative;
+    margin-top: 20px;
+}
+.cancel{
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+    left: 3px;
+    width: 10px;
+}
+.cancel:hover{
+    color: red;
+    text-decoration: underline;
+}
+.search{
+    background-color: rgb(21,154,255);
+    color: rgb(245, 248, 242);
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    width: 100px;
+}
+.search:hover{
+    color: black;
+}
+.s-2{
+    position: relative;
+    text-align: center;
+    top: 430px;
+    font-size: 16px;
+}
